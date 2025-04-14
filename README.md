@@ -1,7 +1,7 @@
 # LlamaIndex - based RAG chatbot
 
 ## Description
-This is a pet project chatbot that uses LlamaIndex and Aiogram libs to create a Telegram bot capable of answering questions about tea store goods and tea descriptions. The pricelist is a real tea store pricelist with tea descriptions and goods quantity data.
+This is a pet project chatbot that uses LlamaIndex and Aiogram libs to create a Telegram bot capable of answering questions about tea store goods and tea descriptions. The pricelist is a real tea store pricelist with tea descriptions and goods quantity data. The bot tracks context for each user.
 
 The agent workflow has two tools:
 1. Query engine tool based on Pandas DataFrame, which is generated from XLS pricelist file. This one is used to answer questions about tea store goods and their quantity. 
