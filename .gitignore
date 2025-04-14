@@ -1,0 +1,7 @@
+venv
+app.log
+__pycache__
+user_data
+.mypy_cache
+.env
+
