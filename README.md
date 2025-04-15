@@ -18,4 +18,7 @@ The architecture of the bot is based on LlamaIndex and Aiogram libraries. LlamaI
     - use Google calendar API to provide data about upcoming events
     - generate an order from pricelist based on user query
 - Add voice recognition and answering
-- Try to use OpenAI API to generate more complex queries
+- Try to use OpenAI API to generate more complex queries (GPT 4.1 seems promising for agent tasks; Also should try Phi-4)
+- Add admin functions to manage bot and make some tasks:
+    - make a subset on the pricelist like this: "create an order from current pricelist within 10000 rub; add new positions from the previous month pricelist to the order; required to add 3-4 Pu'erh teas and Gaba"
+    - Make insights from data: "show me the most popular teas in the last month; show me the most popular teas in the last month with a price above 1000 rub"
